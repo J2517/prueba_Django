@@ -13,7 +13,7 @@ API RESTful desarrollada con Django y Django REST Framework para la gestión de 
 
 ---
 
-## ⚙️ Tecnologías
+## Tecnologías
 
 - Python 3.11+
 - Django 5.2.3
@@ -71,7 +71,7 @@ python manage.py runserver
 ## Autenticación
 
 La API usa **JWT** para autenticar a los usuarios.
-Para mayor facilidad, puede probar todos los endpoints desde la ruta http://127.0.0.1:8000/documentation/docs/
+Para mayor facilidad, puede probar todos los endpoints desde la ruta: http://127.0.0.1:8000/documentation/docs/
 
 ### Obtener token:
 
@@ -84,12 +84,12 @@ Para mayor facilidad, puede probar todos los endpoints desde la ruta http://127.
 }
 ```
 
-📌 Respuesta:
+Respuesta:
 
 ```json
 {
   "refresh": "string",
-  "access": "string"
+  "access": "string" //Este es el token de acceso
 }
 ```
 
